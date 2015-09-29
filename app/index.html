@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="ToDo">
+<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+ 
+    <ul class="nav nav-tabs">
+        <li><a ui-sref="Home">Home</a></li>
+        <li><a ui-sref="List2">List 2</a></li>
+        <li><a ui-sref="List3">List 3</a></li>
+    </ul>
+    
+    <h1 class="jumbotron">To-Do List</h1>
+    
+    <div ui-view>
+        
+    </div>
+      
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>    
+<script src="../bower_components/ngstorage/ngStorage.js"></script>
+<script src="../bower_components/angular-bootstrap/ui-bootstrap.js"></script>    
+<script src="scripts/app.js"></script>    
+<script src="controllers/index_Controller.js"></script>
+<script src="controllers/List2_Controller.js"></script> 
+<script src="controllers/List3_Controller.js"></script>
+</div>
+</html>

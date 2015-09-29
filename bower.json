@@ -1,0 +1,20 @@
+{
+  "name": "todo-list",
+  "version": "1",
+  "description": "This is my To-Do List Angular App",
+  "authors": [
+    "Alice Lee <lemi0127>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-bootstrap": "~0.13.4"
+  }
+}
